@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --cor-principal: #FFE9E4;
+    --cor-destaque: #FF7077;
+    --cor-hover: #FFB067;
+    --cor-escura: #1d1c1c;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: var(--cor-escura);
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 25%;
+    margin-top: 7rem;
+    margin-left: 8rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.116);
+}
+
+.form-insert {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    height: 65%;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+}
+
+.insert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding: 1rem;
+}
+
+.insert input
+ {
+
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    margin: .5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+.insert select {
+    width: 50%;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+    margin: .5rem;
+}
+
+.insert button {
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+    font-weight: bold;
+    padding: .8rem;
+    border-radius: .5rem;
+    border: none;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+.balance {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.5rem;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 50%;
+    margin-top: 7rem;
+    margin-left: 6rem;
+}
+
+.summary h2 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}

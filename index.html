@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de finanças pessoais</title>
+    <link rel="shortcut icon" href="assets/img/icon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="block">
+            <section class="form-insert">
+                <form class="insert">
+                    <label for="descricao">Descrição</label>
+                    <input type="text">
+
+                    <label for="valor">Valor</label>
+                    <input type="number">
+
+
+                    <label for="type">Tipo</label>
+                    <select id="type">
+                        <option value="receita">Receita</option>
+                        <option value="despesa">Despesa</option>
+                    </select>
+
+                    <button type="submit" class="button-submit">Inserir Valor</button>
+                </form>
+            </section>
+
+            <section class="balance">
+                <h3>Saldo Atual: </h3>
+                <p class="amount"></p>
+            </section>
+        </div>
+
+
+
+        <section class="summary">
+            <h2>Resumo Financeiro</h2>
+
+            <ul class="list">
+
+            </ul>
+        </section>
+    </div>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
