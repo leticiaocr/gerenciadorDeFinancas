@@ -105,3 +105,9 @@ body {
     margin-top: 2rem;
     margin-left: 3rem;
 }
+
+.list{
+   background-color: rebeccapurple;
+   padding: 1rem;
+   margin-bottom: .5rem;
+}

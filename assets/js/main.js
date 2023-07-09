@@ -21,28 +21,35 @@ class Gerenciador {
         const value = this.formulario.querySelector('.value').value;
         const type = this.formulario.querySelector('.type').value;
         this.enterData(description, value, type);
-        
+
     }
 
     // COLOCAR OS DADOS NO RESUMO FINANCEIRO 
-   
+
     enterData(description, value, type) {
-       const local = document.querySelector('.list');
-       const descricao = document.createElement("p");
-       const valor = document.createElement("p");
-       const tipo = document.createElement("p");
-
-       descricao.textContent = description;
-       valor.textContent = value;
-       tipo.textContent = type; 
-
-       local.appendChild(descricao);
-       local.appendChild(valor);
-       local.appendChild(tipo);
+        const local = document.querySelector('.contain-list');
 
 
+        const div = document.createElement("div");
+        div.classList.add("list");
 
-       // se o type for entrada adicionar seletor vermelho, se for saída adicionar verde
+
+        const descricao = document.createElement("p");
+        const valor = document.createElement("p");
+        const tipo = document.createElement("p");
+
+        descricao.textContent = description;
+        valor.textContent = value;
+        tipo.textContent = type;
+
+        div.appendChild(descricao);
+        div.appendChild(valor);
+        div.appendChild(tipo);
+
+        local.appendChild(div);
+
+
+        // se o type for entrada adicionar seletor vermelho, se for saída adicionar verde
 
     }
 
