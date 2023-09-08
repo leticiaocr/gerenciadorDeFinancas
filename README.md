@@ -1,7 +1,6 @@
   # GERENCIADOR DE FINANÇAS PESSOAIS
 Este é um projeto de um gerenciador de finanças pessoais, desenvolvido para ajudar no controle financeiro. Com esta aplicação, é possível registrar  receitas e despesas, ter uma visão geral de todas as entradas e saídas financeiras, e acompanhar o seu saldo atual com base no cálculo de *RECEITAS - DESPESAS* .
-O objetivo principal deste projeto é aplicar e aprimorar minhas habilidades em JavaScript, incluindo a manipulação de DOM, classes, validação de formulários e utilização de localstorage. Também busco aprimorar minhas habilidades em CSS, visando construir uma aplicação responsiva.
-O desenvolvimento ainda está em andamento, mas as funções básicas já estão disponíveis para teste. Ao final do projeto, pretendo garantir que a aplicação seja adequada para diferentes tamanhos de tela, ofereça a opção de excluir entradas e permita filtrar os dados por receitas e despesas separadamente.
+O objetivo principal deste projeto é aplicar e aprimorar minhas habilidades em JavaScript, incluindo a manipulação de DOM e classes.
 
 ## Tecnologias
 
@@ -27,15 +26,7 @@ A idéia geral do projeto é criar um gerenciador de finanças pessoais utilizan
 * O código final cria uma instância da classe Gerenciador, iniciando assim o gerenciador de finanças pessoais.
   
 
-
-
-*FUNCIONALIDADES FUTURAS*
-* Adaptação para diferentes tamanhos de tela (responsividade).
-* Opção para excluir entradas registradas.
-* Filtros para exibir apenas as receitas ou apenas as despesas.
-* Validação de formulário para impedir o envio de inputs vazios ou de números negativos no input de valor.
   
-Sua contribuição é bem-vinda!
 
 ## Demonstração 
 
